@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET and POST </title>
+</head>
+<body>
+    <h2>This is your get request form</h2>
+    <!-- this action link directly connect through the our localhost -->
+    <!-- and when the submit button click then all data sent by that perticular method  -->
+    <form action="http://localhost:1080/register" method="get"><br>
+        <input type="text" name="user" id="" placeholder="Enter Name:">&nbsp;
+        <input type="password" name="pass" id="" placeholder="Enter password:">&nbsp;
+        <button>Submit!</button>
+    </form>
+    <hr>
+    <h2>This is your post request form</h2>
+    <form action="http://localhost:1080/register" method="post"><br>
+        <input type="text" name="user" id="" placeholder="Enter Name:">&nbsp;
+        <input type="password" name="pass" id="" placeholder="Enter password:">&nbsp;
+        <button>Submit!</button>
+    </form>
+</body>
+</html>

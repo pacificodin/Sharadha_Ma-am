@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking the databse</title>
+</head>
+<body>
+    <h2>Your Dice no is:<%= Dice %></h2>
+    <% if(Dice==6){%>
+        <h3>Nice! You got one more chance.</h3>
+    <%}%>
+    <h2>Here is the all frits list:</h2>
+    <ol>
+        <% for (const fruit of fal) { %>
+            <b><li>
+             Fruit is: <%= fruit %> 
+            </li> </b> 
+         <% } %>
+         
+    </ol>
+</body>
+</html>

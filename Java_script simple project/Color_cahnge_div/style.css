@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+#div { 
+    margin: auto;
+    margin-top:20px;
+    height: 100px;
+    width: 300px;
+    border: 2px solid black;
+    
+}
